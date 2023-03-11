@@ -47,3 +47,4 @@ jobs:
           IMG_TAG: ${{ github.sha }}
         run: |
           docker push ${{ env.IMG_REPO }}:${{ env.IMG_TAG }}
+          docker push ${{ env.IMG_REPO }}:latest

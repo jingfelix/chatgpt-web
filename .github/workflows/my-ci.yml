@@ -33,6 +33,7 @@ jobs:
           IMG_TAG: ${{ github.sha }}
         run: |
           docker build -t ${{ env.IMG_REPO }}:${{ env.IMG_TAG }} .
+          docker tag ${{ env.IMG_REPO }}:${{ env.IMG_TAG }} ${{ env.IMG_REPO }}:latest
 
       - name: login-to-registry
         uses: aliyun/acr-login@v1

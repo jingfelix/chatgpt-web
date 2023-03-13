@@ -70,11 +70,6 @@ watch(
     <div class="flex flex-col h-full" :style="mobileSafeArea">
       <main class="flex flex-col flex-1 min-h-0">
         <div class="p-4">
-          <NButton dashed block>
-            <a href="/dashboard">
-            DashBoard
-            </a>
-          </NButton>
           <NButton dashed block @click="handleAdd">
             New chat
           </NButton>
@@ -85,6 +80,11 @@ watch(
         <div class="p-4">
           <NButton block @click="show = true">
             Prompt Store
+          </NButton>
+          <NButton block>
+            <a href="/dashboard">
+            DashBoard
+            </a>
           </NButton>
         </div>
       </main>

@@ -82,7 +82,7 @@ watch(
             Prompt Store
           </NButton>
           <NButton block>
-            <a href="/dashboard">
+            <a href="/d">
             DashBoard
             </a>
           </NButton>

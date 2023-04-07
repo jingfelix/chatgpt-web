@@ -74,6 +74,7 @@ watch(
         <div class="p-4">
           <NButton dashed block @click="handleAdd">
             {{ $t('chat.newChatButton') }}
+            {{ $t('chat.newChatButton') }}
           </NButton>
         </div>
         <div class="flex-1 min-h-0 pb-4 overflow-hidden">
